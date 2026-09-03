@@ -1,19 +1,19 @@
 variable "pip" {
-  type = any
+  type = map(any)
 }
 
 variable "resource_group" {
-  type = any
+  type = map(any)
 }
 
 variable "subnet" {
-  type = any
+  type = map(any)
 }
 
 variable "vms" {
-  type = any
+  type = map(any)
 }
 
 variable "virtual_network" {
-  type = any
+  type = map(any)
 }
